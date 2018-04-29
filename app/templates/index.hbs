@@ -1,0 +1,7 @@
+{{#each panels as |panel|}}
+  <section class="comic-panel__row">
+    {{comic-panel classNames="comic-panel--wide"
+    backgroundImg=panel.imgUrl}}
+  </section>
+{{/each}}
+{{outlet}}
